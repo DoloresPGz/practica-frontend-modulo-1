@@ -12,6 +12,14 @@
      <meta name="keywords"
         content="HTML, etiquetas semanticas, proyecto"
      >
+    <!-- Enlace a Material Icions -->
+     <!-- Este enlace carga la biblioteca de Material Icons desde Google Fonts,
+      permitiendo el uso de íconos con nombres específicos -->
+     <link
+     rel="stylesheet"
+     href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   />
+
     <title>Document</title>
 </head>
 <body>
@@ -19,10 +27,10 @@
         <h1>Mi blog personal</h1>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mí</a></li>
-                <li><a href="#">Artículos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#"><span class="material-icons">home</span>Inicio</a></li>
+                <li><a href="#"><span class="material-icons">favorite</span>Sobre mí</a></li>
+                <li><a href="#"><span class="material-icons">bookmarks</span>Artículos</a></li>
+                <li><a href="#contacto"><span class="material-icons">contact_page</span>Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -92,7 +100,7 @@
                     <input type="checkbox" name="escribir" id="intereses-escribir">
                 </fieldset>
 
-                <button type="submit">Enviar</button>
+                <button type="submit"><span class="material-icons">send</span>Enviar</button>
              </form>
         </section>
     </main>
